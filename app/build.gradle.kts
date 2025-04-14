@@ -55,6 +55,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.kotlinx.collections.immutable)
+    testImplementation(libs.junit.jupiter)
     ksp(libs.ksp.hilt)
     implementation(libs.hilt)
     implementation(libs.androidx.hilt.navigation.compose)
@@ -69,6 +70,7 @@ dependencies {
 
     testImplementation(libs.junit)
     testImplementation(libs.androidx.room.testing)
+    testImplementation(libs.truth)
 
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
