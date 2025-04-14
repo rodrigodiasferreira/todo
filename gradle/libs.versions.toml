@@ -14,7 +14,9 @@ composeBom = "2025.04.00"
 immutableCollections = "0.3.8"
 androidxHiltNavigationCompose = "1.2.0"
 room = "2.7.0"
+truth = "1.4.4"
 work = "2.10.0"
+junitJupiter = "5.8.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -42,6 +44,8 @@ kotlinx-collections-immutable = { group = "org.jetbrains.kotlinx", name = "kotli
 hilt = { group = "com.google.dagger", name = "hilt-android", version.ref="hilt" }
 ksp-hilt = { group = "com.google.dagger" , name = "hilt-compiler", version.ref="hilt" }
 androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHiltNavigationCompose" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
+truth = { module = "com.google.truth:truth", version.ref = "truth" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
